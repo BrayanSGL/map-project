@@ -1,0 +1,59 @@
+.admin-view-container {
+    max-width: 400px;
+    margin:60px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);    
+
+  }
+  
+  .admin-view-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .admin-form input {
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+  }
+  
+  .submit-button, .register-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover, .register-button:hover {
+    background-color: #45a049;
+  }
+  
+  .register-button {
+    background-color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
