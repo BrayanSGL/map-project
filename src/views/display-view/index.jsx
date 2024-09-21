@@ -52,25 +52,29 @@ export const DisplayView = () => {
             ))}
           </ul>
         </aside>
-        <section>
+        <section className="links-container">
           <a
+            className="link-facebook"
             target="_blank"
             href="https://www.facebook.com/sharer/sharer.php?u=www.google.com.co"
           >
-            Compartir en facebook
           </a>
           <a
+            className="link-twitter"
             target="_blank"
             href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag]"
           >
             {" "}
-            Comparte Twitter
+            <i></i>
           </a>
-          <a target="_blank" href="https://api.whatsapp.com/send?text=[text]">
-            Comparte Whatsapp--
+          <a
+            className="link-whatsapp"
+            target="_blank"
+            href="https://api.whatsapp.com/send?text=[text]"
+          >
+            <i></i>
           </a>
 
-        
           <button onClick={() => window.print()}>Imprimir</button>
         </section>
       </div>
